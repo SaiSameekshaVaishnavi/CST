@@ -1,0 +1,50 @@
+body{
+    margin: 8% auto;
+}
+.table td:hover{
+    background-color:#f9e7d6;
+}
+.table{
+    border : 2px solid black ;
+    width: 40%;
+    margin-top: 3%;
+    text-align: center;
+}
+.l{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:underline 2px red;
+    color: darkblue;
+    text-shadow: 2px 2px 4px #000000;
+    word-spacing: 4px;
+}
+h2{
+    text-align: center;
+}
+.ac,.c{
+    margin-bottom: 5%;
+}
+.table {
+    width: 40%; /* Set initial smaller width */
+  
+    /* Media query for mobile devices */
+    @media (max-width: 767px) {
+      width: 10%; /* Expand to fill the viewport on mobile */
+    }
+  }
+.copy{
+    margin:13% 0 0 0;
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 14px;
+    background-color:rgba(0,0,0,1);
+    box-shadow: 10px 10px 8px #888888;
+}
+.foot{
+    margin-top: 6px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
